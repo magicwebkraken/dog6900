@@ -1,0 +1,10 @@
+:root {
+    --privy-color-background: #ffffc7 !important;
+    --privy-color-background-2: #fff !important;
+    --privy-color-foreground: #000 !important;
+    --privy-color-foreground-2: #000 !important;
+    --privy-color-foreground-3: #000 !important;
+    --privy-color-foreground-4: #000 !important;
+    --privy-color-foreground-accent: #fff !important;
+    --privy-color-accent: #000 !important
+}

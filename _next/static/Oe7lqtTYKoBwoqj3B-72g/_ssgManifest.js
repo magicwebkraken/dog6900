@@ -1,0 +1,2 @@
+self.__SSG_MANIFEST = new Set(["\u002Fadmin", "\u002Fadmin\u002Faccount", "\u002Fadmin\u002Faccount\u002Fdetail", "\u002Fadmin\u002Faccount\u002Fregist", "\u002Fadmin\u002FblackList", "\u002Fadmin\u002Fpost", "\u002Fadmin\u002Fpost\u002Fdetail", "\u002Fadmin\u002FsuggestPost", "\u002Fadmin\u002FsuggestPost\u002Fdetail", "\u002Fadmin\u002FsuggestPost\u002Fregist"]);
+self.__SSG_MANIFEST_CB && self.__SSG_MANIFEST_CB()
