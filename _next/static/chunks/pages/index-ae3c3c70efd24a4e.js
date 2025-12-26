@@ -93,8 +93,8 @@
             var r = () => {
                     let e = "0xcomingsoon";
                     return {
-                        metaTitle: "$CTAN：Chiitan☆Coin",
-                        metaDescription: "Chiitan☆Coin is Chiitan Official Meme Coin of Japanese crazy mascot. Chiitan☆Coin is blazing its own trail to become the next Bonk, taking care of its entertainment and fans. Support by $CHIITAN Team.",
+                        metaTitle: "$DOG6900",
+                        metaDescription: "$DOG6900-First Ethereum Moonshot coin.",
                         isMaintenance: !0,
                         siteOrigin: window.location.origin,
                         raydiumSite: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=".concat(e),
