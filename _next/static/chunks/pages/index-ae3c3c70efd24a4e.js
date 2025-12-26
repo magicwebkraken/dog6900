@@ -821,7 +821,7 @@
                                     })
                                 }), (0, n.jsx)("li", {
                                     children: (0, n.jsx)("a", {
-                                        href: "https://www.dextools.io/app/en/ether/pair-explorer/0xc43d4198748b1e3407439808f13e9fe18a946555?t=1729775383853",
+                                        href: "https://www.dextools.io/app/en/ether/pair-explorer/0xcomingsoon?t=1729775383853",
                                         target: "_blank",
                                         rel: "noreferrer",
                                         children: "\uD83D\uDCF1 Dextools"
