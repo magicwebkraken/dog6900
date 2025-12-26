@@ -91,7 +91,7 @@
                 })
             };
             var r = () => {
-                    let e = "0xcomingsoon";
+                    let e = "0x80878ed93C48c80690e0A0b9295B8759BD1cD9e3";
                     return {
                         metaTitle: "$DOG6900",
                         metaDescription: "$DOG6900-First Ethereum Moonshot coin.",
@@ -821,7 +821,7 @@
                                     })
                                 }), (0, n.jsx)("li", {
                                     children: (0, n.jsx)("a", {
-                                        href: "https://www.dextools.io/app/en/ether/pair-explorer/0xcomingsoon?t=1729775383853",
+                                        href: "https://www.dextools.io/app/en/ether/pair-explorer/0x80878ed93C48c80690e0A0b9295B8759BD1cD9e3?t=1729775383853",
                                         target: "_blank",
                                         rel: "noreferrer",
                                         children: "\uD83D\uDCF1 Dextools"
