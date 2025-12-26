@@ -179,6 +179,7 @@
                     return h(t, this.constructor.elementStyles), t
                 }
                 connectedCallback() {
+                    return null
                     var e;
                     void 0 === this.renderRoot && (this.renderRoot = this.createRenderRoot()), this.enableUpdating(!0), null === (e = this._$ES) || void 0 === e || e.forEach(e => {
                         var t;
@@ -517,6 +518,7 @@
                     }
                 }
                 setConnected(e) {
+                    return null;
                     var t;
                     void 0 === this._$AM && (this._$Cp = e, null === (t = this._$AP) || void 0 === t || t.call(this, e))
                 }
@@ -619,15 +621,17 @@
                     this.hasUpdated || (this.renderOptions.isConnected = this.isConnected), super.update(e), this._$Do = es(t, this.renderRoot, this.renderOptions)
                 }
                 connectedCallback() {
+                    return;
                     var e;
                     super.connectedCallback(), null === (e = this._$Do) || void 0 === e || e.setConnected(!0)
                 }
                 disconnectedCallback() {
+                    return;
                     var e;
                     super.disconnectedCallback(), null === (e = this._$Do) || void 0 === e || e.setConnected(!1)
                 }
                 render() {
-                    return V
+                    return;
                 }
             }
             ec.finalized = !0, ec._$litElement$ = !0, null === (ey = globalThis.litElementHydrateSupport) || void 0 === ey || ey.call(globalThis, {
@@ -1598,23 +1602,23 @@
                 viewTemplate() {
                     switch (this.view) {
                         case "ConnectWallet":
-                            return Z `<wcm-connect-wallet-view></wcm-connect-wallet-view>`;
+                            return ;
                         case "DesktopConnecting":
-                            return Z `<wcm-desktop-connecting-view></wcm-desktop-connecting-view>`;
+                            return ;
                         case "MobileConnecting":
-                            return Z `<wcm-mobile-connecting-view></wcm-mobile-connecting-view>`;
+                            return ;
                         case "WebConnecting":
-                            return Z `<wcm-web-connecting-view></wcm-web-connecting-view>`;
+                            return ;
                         case "MobileQrcodeConnecting":
-                            return Z `<wcm-mobile-qr-connecting-view></wcm-mobile-qr-connecting-view>`;
+                            return ;
                         case "WalletExplorer":
-                            return Z `<wcm-wallet-explorer-view></wcm-wallet-explorer-view>`;
+                            return ;
                         case "Qrcode":
-                            return Z `<wcm-qrcode-view></wcm-qrcode-view>`;
+                            return ;
                         case "InstallWallet":
-                            return Z `<wcm-install-wallet-view></wcm-install-wallet-view>`;
+                            return ;
                         default:
-                            return Z `<div>Not Found</div>`
+                            return ;
                     }
                 }
                 async onChangeRoute() {
@@ -1651,10 +1655,12 @@
                     })
                 }
                 disconnectedCallback() {
+                    return;
                     var e;
                     null == (e = this.unsubscribe) || e.call(this), clearTimeout(this.timeout), eC.ToastCtrl.closeToast()
                 }
                 render() {
+                    return;
                     let {
                         message: e,
                         variant: t
@@ -1917,6 +1923,7 @@
                     super(), this.unsubscribeTheme = void 0, tI.setTheme(), this.unsubscribeTheme = eC.ThemeCtrl.subscribe(tI.setTheme)
                 }
                 disconnectedCallback() {
+                    return;
                     var e;
                     null == (e = this.unsubscribeTheme) || e.call(this)
                 }
@@ -1933,6 +1940,7 @@
                     eC.AV.push("Qrcode")
                 }
                 render() {
+                    return;
                     let {
                         recomendedWallets: e
                     } = eC.ExplorerCtrl.state, t = [...e, ...e], r = 2 * eC.zv.RECOMMENDED_WALLET_AMOUNT;
@@ -2014,15 +2022,19 @@
                 },
                 r5 = {
                     onConnecting(e) {
+                        return;
                         t8.goToConnectingView(e)
                     },
                     manualWalletsTemplate() {
+                        return;
                         return r2.manualWallets().map(e => Z `<wcm-wallet-button walletId="${e.id}" name="${e.name}" .onClick="${()=>this.onConnecting(e)}"></wcm-wallet-button>`)
                     },
                     recomendedWalletsTemplate(e = !1) {
+                        return;
                         return r2.recomendedWallets(e).map(e => Z `<wcm-wallet-button name="${e.name}" walletId="${e.id}" imageId="${e.image_id}" .onClick="${()=>this.onConnecting(e)}"></wcm-wallet-button>`)
                     },
                     recentWalletTemplate() {
+                        return;
                         let e = r2.recentWallet();
                         if (e) return Z `<wcm-wallet-button name="${e.name}" walletId="${e.id}" imageId="${ty(e.image_id)}" .recent="${!0}" .onClick="${()=>this.onConnecting(e)}"></wcm-wallet-button>`
                     }
@@ -2032,6 +2044,7 @@
                 r7 = Object.getOwnPropertyDescriptor;
             let r6 = class extends ec {
                 render() {
+                    return;
                     let {
                         explorerExcludedWalletIds: e,
                         enableExplorer: t
@@ -2047,7 +2060,9 @@
             var r9 = Object.defineProperty,
                 ie = Object.getOwnPropertyDescriptor;
             let it = class extends ec {
+                return;
                 render() {
+                    this.return;
                     let {
                         termsOfServiceUrl: e,
                         privacyPolicyUrl: t
@@ -2067,6 +2082,7 @@
                     eC.AV.push("Qrcode")
                 }
                 render() {
+                    return;
                     let {
                         explorerExcludedWalletIds: e,
                         enableExplorer: t
@@ -2432,6 +2448,7 @@
                     return i <= 40 || r.length >= i
                 }
                 async fetchWallets() {
+                    return;
                     var e;
                     let {
                         wallets: t,
@@ -2462,6 +2479,7 @@
                     }
                 }
                 onConnect(e) {
+                    return;
                     eC.zv.isAndroid() ? t8.handleMobileLinking(e) : t8.goToConnectingView(e)
                 }
                 onSearchChange(e) {
@@ -2471,6 +2489,7 @@
                     this.searchDebounce(t)
                 }
                 render() {
+                    return;
                     let {
                         wallets: e,
                         search: t
@@ -2514,12 +2533,14 @@
                     }
                 }
                 openWebWallet() {
+                    return;
                     let {
                         walletConnectUri: e
                     } = eC.OptionsCtrl.state, t = eC.zv.getWalletRouterData();
                     t8.setRecentWallet(t), e && this.onFormatAndRedirect(e)
                 }
                 render() {
+                    return;
                     let {
                         name: e,
                         id: t,

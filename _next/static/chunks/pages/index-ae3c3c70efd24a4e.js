@@ -91,10 +91,10 @@
                 })
             };
             var r = () => {
-                    let e = "0x80878ed93C48c80690e0A0b9295B8759BD1cD9e3";
+                    let e = "0xcomingsoon";
                     return {
-                        metaTitle: "$DOG6900",
-                        metaDescription: "$DOG6900-First Ethereum Moonshot coin.",
+                        metaTitle: "$CTAN：Chiitan☆Coin",
+                        metaDescription: "Chiitan☆Coin is Chiitan Official Meme Coin of Japanese crazy mascot. Chiitan☆Coin is blazing its own trail to become the next Bonk, taking care of its entertainment and fans. Support by $CHIITAN Team.",
                         isMaintenance: !0,
                         siteOrigin: window.location.origin,
                         raydiumSite: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=".concat(e),
@@ -185,26 +185,18 @@
                                             children: [(0, n.jsx)(u.x, {
                                                 children: "Privy Solana Wallet:"
                                             }), (0, n.jsx)(u.x, {
-                                                children: _ ? "Connected" : (0, n.jsx)(p.z, {
-                                                    onClick: () => {
-                                                        r()
-                                                    },
-                                                    children: "Connect"
-                                                })
+                                                children: _ ? "Connected" : "Not connected"
                                             })]
+                                        })
                                         })
                                     }), (0, n.jsx)(c.xu, {
                                         children: (0, n.jsxs)(x.U, {
                                             children: [(0, n.jsx)(u.x, {
                                                 children: "external Solana Wallet:"
                                             }), (0, n.jsx)(u.x, {
-                                                children: j ? "Connected" : (0, n.jsx)(p.z, {
-                                                    onClick: () => {
-                                                        h()
-                                                    },
-                                                    children: "Connect"
-                                                })
+                                                children: j ? "Connected" : "Not connected"
                                             })]
+                                        })]
                                         })
                                     })]
                                 })]
@@ -247,10 +239,10 @@
                     } = E(), k = (0, l.useMemo)(() => a ? p(a.address, 6) : "", [a, p]), w = (0, l.useMemo)(() => c.CTAN ? b(c.CTAN, 1e3) : 0, [c.CTAN, b]);
                     return (0, n.jsx)("div", {
                         className: N().con_head,
-                        children: (0, n.jsxs)("div", {
-                            className: N().wrapper,
-                            children: [(0, n.jsx)("p", {
-                                children: "DOG6900☆︎Coin Portal"
+                            overflowY: "auto",
+                            maxH: h,
+                            w: "100%",
+                            children: [!1 === m && (0, n.jsxs)(i.xu, {
                             }), g ? (0, n.jsxs)(x.U, {
                                 spacing: 4,
                                 children: [(0, n.jsx)(j.r, {
@@ -311,8 +303,8 @@
                                         })
                                     }), (0, n.jsx)("button", {
                                         className: N().unit_btn_01,
-                                        onClick: i,
-                                        children: "\uD83D\uDC5B CONNECT WALLET \uD83D\uDC5B"
+                                        onClick: () => {},
+                                        children: ""
                                     })]
                                 })
                             }), (0, n.jsx)("div", {
@@ -801,10 +793,10 @@
                     } = r();
                     return (0, n.jsx)("div", {
                         className: "".concat(N().side_bar, " ").concat(t ? N().menuOpen : ""),
-                        children: (0, n.jsxs)("div", {
-                            className: N().sp_bg,
-                            children: [(0, n.jsx)("span", {
-                                className: N().logo,
+                            overflowY: "auto",
+                            maxH: h,
+                            w: "100%",
+                            children: [!1 === m && (0, n.jsxs)(i.xu, {
                                 children: (0, n.jsx)(h.E, {
                                     src: "/images/logo.png",
                                     alt: "",
@@ -816,26 +808,26 @@
                                 className: N().menu,
                                 children: [!l && c && (0, n.jsx)("li", {
                                     children: (0, n.jsx)("a", {
-                                        onClick: () => a(!0),
-                                        children: "\uD83D\uDC5B Solana Wallet"
+                                        onClick: () => {},
+                                        children: ""
                                     })
                                 }), (0, n.jsx)("li", {
                                     children: (0, n.jsx)("a", {
-                                        href: "https://www.dextools.io/app/en/ether/pair-explorer/0x80878ed93C48c80690e0A0b9295B8759BD1cD9e3?t=1729775383853",
+                                        href: "https://www.dextools.io/app/en/ether/pair-explorer/0xc43d4198748b1e3407439808f13e9fe18a946555?t=1729775383853",
                                         target: "_blank",
                                         rel: "noreferrer",
                                         children: "\uD83D\uDCF1 Dextools"
                                     })
                                 }), (0, n.jsx)("li", {
                                     children: (0, n.jsx)("a", {
-                                        href: "https://x.com/dog6900eth",
+                                        href: "https://ctan_erc20",
                                         target: "_blank",
                                         rel: "noreferrer",
                                         children: "\uD83D\uDCB0 Official X"
                                     })
                                 }), (0, n.jsx)("li", {
                                     children: (0, n.jsx)("a", {
-                                        href: "https://t.me/dog6900portal",
+                                        href: "https://t.me/ctan_erc20",
                                         target: "_blank",
                                         rel: "noreferrer",
                                         children: "\uD83D\uDC65 Official TG"
@@ -1085,8 +1077,8 @@
                             })
                         }), (0, n.jsx)("button", {
                             className: N().unit_btn_02,
-                            onClick: s,
-                            children: "\uD83D\uDC5B CONNECT WALLET \uD83D\uDC5B"
+                            onClick: () => {},
+                            children: ""
                         }), (0, n.jsx)("div", {
                             className: "".concat(N().more_link, " ").concat(N().txt_center),
                             children: (0, n.jsx)("a", {
