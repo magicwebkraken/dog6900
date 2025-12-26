@@ -828,14 +828,14 @@
                                     })
                                 }), (0, n.jsx)("li", {
                                     children: (0, n.jsx)("a", {
-                                        href: "https://ctan_erc20",
+                                        href: "https://x.com/dog6900eth",
                                         target: "_blank",
                                         rel: "noreferrer",
                                         children: "\uD83D\uDCB0 Official X"
                                     })
                                 }), (0, n.jsx)("li", {
                                     children: (0, n.jsx)("a", {
-                                        href: "https://t.me/ctan_erc20",
+                                        href: "https://t.me/dog6900portal",
                                         target: "_blank",
                                         rel: "noreferrer",
                                         children: "\uD83D\uDC65 Official TG"
