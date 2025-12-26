@@ -1312,7 +1312,6 @@
                         })
                     },
                     prefetch(t) {
-                        return;
                         let r;
                         return (r = navigator.connection) && (r.saveData || /2g/.test(r.effectiveType)) ? Promise.resolve() : h(e, t).then(e => Promise.all(c ? e.scripts.map(e => {
                             var t, r, n;

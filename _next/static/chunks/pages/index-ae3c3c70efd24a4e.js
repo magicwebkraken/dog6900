@@ -185,18 +185,26 @@
                                             children: [(0, n.jsx)(u.x, {
                                                 children: "Privy Solana Wallet:"
                                             }), (0, n.jsx)(u.x, {
-                                                children: _ ? "Connected" : "Not connected"
+                                                children: _ ? "Connected" : (0, n.jsx)(p.z, {
+                                                    onClick: () => {
+                                                        r()
+                                                    },
+                                                    children: "Connect"
+                                                })
                                             })]
-                                        })
                                         })
                                     }), (0, n.jsx)(c.xu, {
                                         children: (0, n.jsxs)(x.U, {
                                             children: [(0, n.jsx)(u.x, {
                                                 children: "external Solana Wallet:"
                                             }), (0, n.jsx)(u.x, {
-                                                children: j ? "Connected" : "Not connected"
+                                                children: j ? "Connected" : (0, n.jsx)(p.z, {
+                                                    onClick: () => {
+                                                        h()
+                                                    },
+                                                    children: "Connect"
+                                                })
                                             })]
-                                        })]
                                         })
                                     })]
                                 })]
@@ -239,10 +247,10 @@
                     } = E(), k = (0, l.useMemo)(() => a ? p(a.address, 6) : "", [a, p]), w = (0, l.useMemo)(() => c.CTAN ? b(c.CTAN, 1e3) : 0, [c.CTAN, b]);
                     return (0, n.jsx)("div", {
                         className: N().con_head,
-                            overflowY: "auto",
-                            maxH: h,
-                            w: "100%",
-                            children: [!1 === m && (0, n.jsxs)(i.xu, {
+                        children: (0, n.jsxs)("div", {
+                            className: N().wrapper,
+                            children: [(0, n.jsx)("p", {
+                                children: "DOG6900☆︎Coin Portal"
                             }), g ? (0, n.jsxs)(x.U, {
                                 spacing: 4,
                                 children: [(0, n.jsx)(j.r, {
@@ -303,8 +311,8 @@
                                         })
                                     }), (0, n.jsx)("button", {
                                         className: N().unit_btn_01,
-                                        onClick: () => {},
-                                        children: ""
+                                        onClick: i,
+                                        children: "\uD83D\uDC5B CONNECT WALLET \uD83D\uDC5B"
                                     })]
                                 })
                             }), (0, n.jsx)("div", {
@@ -793,10 +801,10 @@
                     } = r();
                     return (0, n.jsx)("div", {
                         className: "".concat(N().side_bar, " ").concat(t ? N().menuOpen : ""),
-                            overflowY: "auto",
-                            maxH: h,
-                            w: "100%",
-                            children: [!1 === m && (0, n.jsxs)(i.xu, {
+                        children: (0, n.jsxs)("div", {
+                            className: N().sp_bg,
+                            children: [(0, n.jsx)("span", {
+                                className: N().logo,
                                 children: (0, n.jsx)(h.E, {
                                     src: "/images/logo.png",
                                     alt: "",
@@ -808,8 +816,8 @@
                                 className: N().menu,
                                 children: [!l && c && (0, n.jsx)("li", {
                                     children: (0, n.jsx)("a", {
-                                        onClick: () => {},
-                                        children: ""
+                                        onClick: () => a(!0),
+                                        children: "\uD83D\uDC5B Solana Wallet"
                                     })
                                 }), (0, n.jsx)("li", {
                                     children: (0, n.jsx)("a", {
@@ -1077,8 +1085,8 @@
                             })
                         }), (0, n.jsx)("button", {
                             className: N().unit_btn_02,
-                            onClick: () => {},
-                            children: ""
+                            onClick: s,
+                            children: "\uD83D\uDC5B CONNECT WALLET \uD83D\uDC5B"
                         }), (0, n.jsx)("div", {
                             className: "".concat(N().more_link, " ").concat(N().txt_center),
                             children: (0, n.jsx)("a", {

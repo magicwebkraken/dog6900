@@ -274,7 +274,7 @@
                         var e;
                         let t = null == (e = g.state.data) ? void 0 : e.Wallet;
                         if (!t) throw Error('Missing "Wallet" view data');
-                        return null
+                        return t
                     }
                 },
                 y = f({
@@ -598,7 +598,7 @@
         59343: function(e, t, s) {
             s.d(t, {
                 WalletConnectModal: function() {
-                    return null
+                    return o
                 }
             });
             var r = s(75740);

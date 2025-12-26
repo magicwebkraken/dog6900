@@ -3119,7 +3119,6 @@
                                     u = !1;
                                 return {
                                     init: function() {
-                                        return;
                                         o = new IntersectionObserver(e => {
                                             u || (e.forEach(e => {
                                                 i[t.indexOf(e.target)] = e
@@ -3133,7 +3132,6 @@
                                         o && o.disconnect(), u = !0
                                     },
                                     get: function(e = !0) {
-                                        return;
                                         if (e && a) return a;
                                         if (!e && s) return s;
                                         let t = v(i).reduce((t, n) => {
@@ -3317,7 +3315,6 @@
                                     }
                                     return {
                                         init: function(o) {
-                                            return;
                                             i && (u = m(e), d = r.map(m), s = new ResizeObserver(n => {
                                                 (l(i) || i(o, n)) && function(n) {
                                                     for (let i of n) {
