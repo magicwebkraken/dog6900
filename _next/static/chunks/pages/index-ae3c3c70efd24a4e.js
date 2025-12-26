@@ -1770,7 +1770,13 @@
                         }), (0, n.jsx)("meta", {
                             property: "og:url",
                             content: s
-                        }),  (0, n.jsx)("meta", {
+                        }), (0, n.jsx)("meta", {
+                            property: "og:image",
+                            content: "".concat(s, "/images/ogp.png")
+                        }), (0, n.jsx)("meta", {
+                            property: "og:site_name",
+                            content: e
+                        }), (0, n.jsx)("meta", {
                             property: "og:type",
                             content: "website"
                         }), (0, n.jsx)("meta", {
