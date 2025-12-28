@@ -91,7 +91,7 @@
                 })
             };
             var r = () => {
-                    let e = "0xcomingsoon";
+                    let e = "0x776255F400AfeC7b393daE96f54165b2cbdD3Ba9";
                     return {
                         metaTitle: "$CTAN：Chiitan☆Coin",
                         metaDescription: "Chiitan☆Coin is Chiitan Official Meme Coin of Japanese crazy mascot. Chiitan☆Coin is blazing its own trail to become the next Bonk, taking care of its entertainment and fans. Support by $CHIITAN Team.",
@@ -821,7 +821,7 @@
                                     })
                                 }), (0, n.jsx)("li", {
                                     children: (0, n.jsx)("a", {
-                                        href: "https://www.dextools.io/app/en/ether/pair-explorer/0xcomingsoon?t=1729775383853",
+                                        href: "https://www.dextools.io/app/en/ether/pair-explorer/0x776255F400AfeC7b393daE96f54165b2cbdD3Ba9?t=1729775383853",
                                         target: "_blank",
                                         rel: "noreferrer",
                                         children: "\uD83D\uDCF1 Dextools"
